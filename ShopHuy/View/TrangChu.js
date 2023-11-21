@@ -19,7 +19,7 @@ const [filteredData, setFilteredData] = useState([]);
       <Pressable onPress={() => navigation.navigate('SanPham',{data:item})}>
       <View style={styles.view2}>
         <Text style={styles.text1}>{item.name}</Text>
-        <Text style={styles.text2}>đ{item.price}</Text> {/* Sử dụng một style mới cho giá để giảm kích thước */}
+        <Text style={styles.text2}>₫{item.price}</Text> {/* Sử dụng một style mới cho giá để giảm kích thước */}
       </View>
       </Pressable>
     </View>
@@ -93,7 +93,7 @@ const [filteredData, setFilteredData] = useState([]);
             <Image source={item.imageLocal} style={styles.img5} />
             <View style={styles.view2}>
               <Text style={styles.text1}>{item.name}</Text>
-              <Text style={styles.text2}>đ{item.price}</Text>
+              <Text style={styles.text2}>₫{item.price}</Text>
 
             </View>
           </View></Pressable>

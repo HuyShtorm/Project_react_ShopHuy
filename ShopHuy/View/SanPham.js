@@ -9,7 +9,7 @@ const SanPham = ({ route }) => {
       <Image source={data.imageLocal} style={styles.image} />
       <Text style={styles.title}>{data.name}</Text>
       <Text style={styles.shop}>{data.shop}</Text>
-      <Text style={styles.price}>đ{data.price}</Text>
+      <Text style={styles.price}>₫{data.price}</Text>
 
       {/* Additional details can be added here based on your requirements */}
     </View>
