@@ -12,6 +12,7 @@ const SanPham = ({ route }) => {
       <Text style={styles.price}>₫{data.price}</Text>
 
       {/* Additional details can be added here based on your requirements */}
+   
     </View>
   );
 };
