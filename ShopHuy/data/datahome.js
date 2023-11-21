@@ -27,6 +27,7 @@ const HomeList = [
       price : "59000",
       imageLocal: require("../img/cavien.jpg"),
     },
+<<<<<<< HEAD
     {
       id: 4,
       name: "Combo Viên thả lẩu 12in1 454g",
@@ -55,6 +56,8 @@ const HomeList = [
       price : "59000",
       imageLocal: require("../img/cavien.jpg"),
     },
+=======
+>>>>>>> 9aedd4de0c1cd864ed29a9fd288adbacfc1c8c24
     
   ];
   
